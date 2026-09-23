@@ -1,3 +1,4 @@
 @samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git branch -vv
-  bug-fix-typo ad95b0a Create close_pr.yml
-* main         547dcc4 [origin/main] Fixed typo in README
+  bug-fix-revert 06bea0e Added outputs for Questions 6, 7, 8, and 9
+  bug-fix-typo   ad95b0a Create close_pr.yml
+* main           06bea0e [origin/main] Added outputs for Questions 6, 7, 8, and 9

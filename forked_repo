@@ -1,3 +1,4 @@
+@samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ curl -i https://api.github.com/repos/samyak7chopda/mcino-Introduction-to-Git-and-GitHub
 HTTP/2 200 
 date: Wed, 23 Sep 2026 09:58:36 GMT
 content-type: application/json; charset=utf-8
