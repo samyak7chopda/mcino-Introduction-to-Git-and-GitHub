@@ -1,23 +1,29 @@
-@samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git branch
-  bug-fix-typo
-* main
+@samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git checkout main
+M       forked_repo
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+@samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git checkout -b bug-fix-typo
+fatal: a branch named 'bug-fix-typo' already exists
+@samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ 
+@samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ echo "# Simple Interest Calculator (Python)" >> README.md
 @samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git add README.md
 git commit -m "Fixed typo in README"
-[main 608102f] Fixed typo in README
- 1 file changed, 1 insertion(+), 1 deletion(-)
+[main 547dcc4] Fixed typo in README
+ 1 file changed, 1 insertion(+)
 @samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git checkout main
+M       forked_repo
 Already on 'main'
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 @samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git merge bug-fix-typo
 Already up to date.
 @samyak7chopda ➜ /workspaces/mcino-Introduction-to-Git-and-GitHub (main) $ git push
-Enumerating objects: 8, done.
-Counting objects: 100% (8/8), done.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
 Delta compression using up to 2 threads
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (6/6), 608 bytes | 608.00 KiB/s, done.
-Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/samyak7chopda/mcino-Introduction-to-Git-and-GitHub
-   ad95b0a..608102f  main -> main
+   5284133..547dcc4  main -> main
